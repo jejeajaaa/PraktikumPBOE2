@@ -35,3 +35,4 @@ public class Tendik extends Pegawai {
         System.out.println("--------------------------------------------------");
     }
 }
+

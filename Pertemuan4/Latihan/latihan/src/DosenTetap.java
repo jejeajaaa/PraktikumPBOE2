@@ -36,3 +36,4 @@ public class DosenTetap extends Dosen {
         System.out.println("--------------------------------------------------");
     }
 }
+
