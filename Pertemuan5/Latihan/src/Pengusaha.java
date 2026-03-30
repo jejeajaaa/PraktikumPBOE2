@@ -1,4 +1,3 @@
-
 /* Nama File    : Pengusaha.java
  * Deskripsi    : Membuat class Pengusaha dengan inherit Manusia dan implement Pajak
  * Pembuat      : Djuan Setyo Jati / 24060124140163
@@ -11,7 +10,7 @@ import java.time.Period;
 public class Pengusaha extends Manusia implements Pajak {
     private String npwp;
     private static int counterPengusaha;
-    private static final int B = 2;
+    public static final int B = 6; 
 
     public Pengusaha(){
         super();
@@ -45,7 +44,7 @@ public class Pengusaha extends Manusia implements Pajak {
 
     @Override
     public double hitungPajak() {
-        return getPendapatan() * 0.15;
+        return getPendapatan() * 0.15; // Pajak 15% dari pendapatan [cite: 115]
     }
 
     @Override
