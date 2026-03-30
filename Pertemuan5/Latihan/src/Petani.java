@@ -10,7 +10,7 @@ import java.time.Period;
 public class Petani extends Manusia implements Pajak {
     private String asal_kota;
     private static int counterPetani;
-    private static final int C = 0;
+    public static final int C = 1; 
 
     public Petani(){
         super();
@@ -44,7 +44,7 @@ public class Petani extends Manusia implements Pajak {
     
     @Override
     public double hitungPajak() {
-        return 0;
+        return 0; // Petani tidak dikenakan pajak [cite: 115]
     }
 
     @Override
