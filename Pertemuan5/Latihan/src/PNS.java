@@ -1,4 +1,3 @@
-
 /* Nama File    : PNS.java
  * Deskripsi    : Membuat class PNS dengan inherit Manusia dan implement Pajak
  * Pembuat      : Djuan Setyo Jati / 24060124140163
@@ -11,7 +10,7 @@ import java.time.Period;
 public class PNS extends Manusia implements Pajak {
     private String nip;
     private static int counterPNS;
-    private static final int A = 6;
+    public static final int A = 3; 
 
     public PNS(){
         super();
@@ -45,7 +44,7 @@ public class PNS extends Manusia implements Pajak {
 
     @Override
     public double hitungPajak() {
-        return getPendapatan() * 0.1;
+        return getPendapatan() * 0.1; // Pajak 10% dari pendapatan [cite: 115]
     }
 
     @Override
