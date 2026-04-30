@@ -1,7 +1,8 @@
-/* NIM  : 24060123130094
-   Nama : Gabriel Prakosa Ardhi
-   Tgl  : 24 April 2026
+/* NIM  : 24060124140163
+   Nama : Djuan Setyo jati
+   Tgl  : 30 April 2026
 */
+
 package POLIMORFISME_AD_HOC_COERSION;
 
 public class PolimorfismeCoercion {
