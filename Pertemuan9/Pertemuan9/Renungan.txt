@@ -1,0 +1,14 @@
+Renungan:
+
+Koleksi adalah struktur untuk menyimpan banyak objek di bawah satu nama.
+Dengan koleksi, data dapat ditambah, diambil, diubah, dihapus, dicek
+keanggotaannya, dan ditelusuri satu per satu menggunakan perulangan.
+
+Pada List, elemen dapat diakses berdasarkan indeks sehingga cocok untuk data
+yang perlu disunting pada posisi tertentu. Pada Queue, elemen diproses seperti
+antrean, yaitu elemen yang masuk lebih dahulu akan dilayani lebih dahulu.
+
+Dalam tugas ini, kelas Teman memakai List untuk menyimpan kumpulan nama,
+sedangkan kelas Piaraan memakai Queue untuk menyimpan antrean objek Anabul.
+Konsep koleksi membuat pengelolaan banyak objek menjadi lebih rapi karena
+semua operasi dilakukan melalui metode yang sudah disediakan oleh koleksi.
